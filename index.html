@@ -1,0 +1,501 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=confirmation_number"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="navbar-container">
+      <div class="navbar-menu">
+        <i class="fa-solid fa-bars" style="color: #000000;"></i>
+      </div>
+      <div class="navbar-s1">
+        <img
+          src="./assets/images/Tripadvisor-navbar-logo.svg"
+          alt="Tripadvisor"
+        />
+      </div>
+      <div class="navbar-s2">
+        <button>Discover</button>
+        <button>Trips</button>
+        <button>Review</button>
+        <p>Forums</p>
+      </div>
+      <div class="navbar-s3">
+        <p><i class="fa-solid fa-globe"></i> <span>|</span>INR</p>
+        <button>Sign in</button>
+      </div>
+      <div class="navbar-profileicon">
+        <i class="fa-regular fa-user" style="color: #000000;"></i>
+      </div>
+    </div>
+    <!-- Search Section -->
+    <div class="search-container">
+      <div class="search-s1">
+        <h1>Where to?</h1>
+      </div>
+      <div class="search-s2">
+        <h5 class="search-s2__default">
+          <i class="fa-solid fa-house" style="color: #000000"></i>Search All
+        </h5>
+        <p><i class="fa-solid fa-bed" style="color: #000000"></i>Hotels</p>
+        <p>
+          <span class="material-symbols-outlined"> confirmation_number </span
+          >Things to Do
+        </p>
+        <p>
+          <i class="fa-solid fa-utensils" style="color: #000000"></i>Restaurants
+        </p>
+        <p>
+          <i class="fa-solid fa-plane-departure" style="color: #000000"></i
+          >Flights
+        </p>
+        <p>
+          <i class="fa-solid fa-house-lock" style="color: #000000"></i>Holiday
+          Homes
+        </p>
+      </div>
+      <div class="search-s3">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input
+          type="text"
+          placeholder="Places to go, things to do, hotels..."
+        />
+        <button>Search</button>
+      </div>
+    </div>
+    <!-- Advertisement Section -->
+    <div class="advertisement-container">
+      <img src="./assets/images/caption.jpg" alt="img" />
+      <div class="advertisement-content">
+        <p>Powered by AI <span>BETA</span></p>
+        <h1>Plan a trip that's so you</h1>
+        <h2>
+          From farm tours to forest bathing-get custom recs for whatever you're
+          into.
+        </h2>
+        <button>
+          <i class="fa-solid fa-star" style="color: #ffffff"></i> Start a trip
+          with AI
+        </button>
+      </div>
+    </div>
+    <!-- Ad Card Section -->
+    <div class="add-card__container">
+      <div class="ad-card">
+        <!-- Left Section (Image) -->
+        <div class="ad-card__image">
+          <img src="assets/images/tokyo.jpg" alt="Tokyo Prefecture" />
+        </div>
+
+        <!-- Middle Section (Text) -->
+        <div class="ad-card__content">
+          <span class="ad-card__sponsored">Sponsored by TCVB</span>
+          <h2>Discover Tokyo Prefecture</h2>
+          <p>
+            Find out why travellers like you are raving about Tokyo Prefecture
+          </p>
+        </div>
+
+        <!-- Right Section (Button) -->
+        <div class="ad-card__button">
+          <button>Explore now</button>
+        </div>
+      </div>
+    </div>
+    <!-- ExploreWorld section -->
+    <div class="explore-container">
+      <div class="explore-container__heading">
+        <h2>Explore the world's most stunning seasides</h2>
+        <p>2025's Travellers' Choice Awards best of the Best Beaches</p>
+      </div>
+      <div class="explore-container__img">
+        <div class="image-wrapper">
+          <img src="./assets/images/world-beach.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">World</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/images/Europe-beach.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">Europe</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/images/Asia-beach.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">Asia</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/images/pacific-beach.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">Asia</p>
+        </div>
+      </div>
+    </div>
+    <!-- Inspire Section -->
+    <div class="inspired-container">
+      <div class="inspired-container__titles">
+        <h1>Get inspired by our fave travel creators</h1>
+        <p>Tried-and-true guidance to fuel your next big trip</p>
+      </div>
+      <div class="inspired-container__cardgrid">
+        <div class="inspired-container__card">
+          <img src="./assets/images/travel-creator1.jpg" alt="img" />
+          <p>By Ashlyn S</p>
+          <h3>3 family-friendly days in Rome</h3>
+          <div class="inspired-container__likes">
+            <p><i class="fa-solid fa-heart" style="color: #ff5c5c"></i></p>
+            <h4>30 items</h4>
+          </div>
+        </div>
+        <div class="inspired-container__card">
+          <img src="./assets/images/travel-creator2.jpg" alt="img" />
+          <p>By Eileen Ivette</p>
+          <h3>The ultimate 'workcation' in Mexico <br />City</h3>
+          <div class="inspired-container__likes">
+            <p><i class="fa-solid fa-heart" style="color: #ff5c5c"></i></p>
+            <h4>28 items</h4>
+          </div>
+        </div>
+        <div class="inspired-container__card">
+          <img src="./assets/images/travel-creator3.jpg" alt="img" />
+          <p>By Two Bad Tourists</p>
+          <h3>Exploring LGBTQ+-friendly Barcelona</h3>
+          <div class="inspired-container__likes">
+            <p><i class="fa-solid fa-heart" style="color: #ff5c5c"></i></p>
+            <h4>28 items</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pondicherry section -->
+    <div class="pondy-container">
+      <div class="pondy-container__titles">
+        <h1>Ways to Tour Pondicherry</h1>
+        <p>Book these experiences for a close-up look at Pondicherry</p>
+      </div>
+      <div class="pondy-container__cardgrid">
+        <div class="pondy-container__card">
+          <div class="pondy-container__cardimg">
+            <img src="./assets/images/pondhy-1.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <h2>Spiritual Walk Tour pondicherry</h2>
+          <div class="pondy-container__rating">
+            <div class="pondy-container__bubblerating">
+              <i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i
+                class="fa-solid fa-circle-half-stroke"
+                style="color: #00aa6c"
+              ></i
+              ><i class="fa-regular fa-circle" style="color: #00aa6c"></i>
+            </div>
+            <p>2</p>
+          </div>
+          <h4>from ₹1,069 per adult</h4>
+        </div>
+        <div class="pondy-container__card">
+          <div class="pondy-container__cardimg">
+            <img src="./assets/images/pondy-2.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <h2>
+            Full Day Guided Tour of Pondicherry with lunch and hotel pickup
+          </h2>
+          <div class="pondy-container__rating">
+            <div class="pondy-container__bubblerating">
+              <i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i>
+            </div>
+            <p>9</p>
+          </div>
+          <h4>from ₹8,437 per adult</h4>
+        </div>
+        <div class="pondy-container__card">
+          <div class="pondy-container__cardimg">
+            <img src="./assets/images/pondy-3.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <h2>Private Day Tour from Pondicherry to Tranquebar Treasures</h2>
+          <div class="pondy-container__rating">
+            <p>0 reviews</p>
+          </div>
+          <h4>from ₹7,427 per adult</h4>
+        </div>
+        <div class="pondy-container__card">
+          <div class="pondy-container__cardimg">
+            <img src="./assets/images/pondy-4.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <button class="pondy-container__sellout">LIKELY TO SELL OUT</button>
+          <h2>Pondicherry day trip from Chennai by Wonder tours</h2>
+          <div class="pondy-container__rating">
+            <div class="pondy-container__bubblerating">
+              <i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i
+              ><i class="fa-solid fa-circle" style="color: #00aa6c"></i>
+            </div>
+            <p>44</p>
+          </div>
+          <h4>from ₹15,008 per adult</h4>
+        </div>
+      </div>
+    </div>
+    <!-- Add section -->
+    <div class="add-card__container">
+      <div class="ad-card">
+        <!-- Left Section (Image) -->
+        <div class="ad-card__image">
+          <img src="assets/images/add-2.jpg" alt="Tokyo Prefecture" />
+        </div>
+
+        <!-- Middle Section (Text) -->
+        <div class="ad-card__content">
+          <span class="ad-card__sponsored"
+            >Sponsored by Macao Government Tourism Office</span
+          >
+          <h2>Macao Peninsula Uncovered: The Heritage Heart of Macao</h2>
+          <p>
+            Step into the heart of Macao, where heritage and modernity converge
+            in a captivating blend of diverse cultures and colours. Macao
+            Peninsula is the oldest district and epicentre of where Macao’s...
+          </p>
+        </div>
+
+        <!-- Right Section (Button) -->
+        <div class="ad-card__button">
+          <button>Explore now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- More to explore section -->
+    <div class="moretoexplore-container">
+      <h2>More to explore</h2>
+      <div class="moretoexplore-container__cardgrid">
+        <div class="moretoexplore-container__card">
+          <div class="moretoexplore-container__cardimg">
+            <img src="./assets/images/moretoexplore-1.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <p>
+            7 Bangkok hotels that highlight Thailand's spectacular architecture
+          </p>
+        </div>
+        <div class="moretoexplore-container__card">
+          <div class="moretoexplore-container__cardimg">
+            <img src="./assets/images/moretoexplore-2.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <p>3 days in Tokyo: The perfect itinerary</p>
+        </div>
+        <div class="moretoexplore-container__card">
+          <div class="moretoexplore-container__cardimg">
+            <img src="./assets/images/moretoexplore-3.jpg" alt="img" />
+            <button>
+              <i class="fa-regular fa-heart fa-lg" style="color: #000000"></i>
+            </button>
+          </div>
+          <p>Where Bali’s best chefs go on their days off</p>
+        </div>
+      </div>
+    </div>
+    <div class="topdestination-container">
+      <h2>Top destination for your next holiday</h2>
+      <p style="color: gray">Here's where your fellow travellers are headed</p>
+      <div class="explore-container__img">
+        <div class="image-wrapper">
+          <img src="./assets/images/topdestination-1.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">
+            BangKok,<br />
+            Thailand
+          </p>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/images/topdestination-2.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">Singapore,<br />Singapore</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/images/topdestination-3.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">Mumbai,India</p>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/images/topdestination-4.jpg" alt="img" />
+          <div class="overlay"></div>
+          <p class="image-text">Bali,Indonesia</p>
+        </div>
+      </div>
+    </div>
+    <!-- Sponser section -->
+    <div class="sponsersection-container">
+      <div class="sponsersection-container__grid">
+        <div class="sponsersection-container__img">
+          <img src="./assets/images/sponser-1.jpg" alt="img" />
+        </div>
+        <div class="sponsersection-container__content">
+          <div class="sponsersection-container_logotitle">
+            <img src="./assets/images/tripadvisor-logo.svg" alt="logo" />
+            <p style="color: gray">
+              Sponsored by
+              <span style="text-decoration: underline; cursor: pointer"
+                >Wanderlab</span
+              >
+            </p>
+          </div>
+          <h1>Watch The Wanderer</h1>
+          <p>
+            Tripadvisor’s award-winning travel series, now streaming on Amazon
+            Prime Video
+          </p>
+          <button>Learn more</button>
+        </div>
+      </div>
+    </div>
+    <div class="bestaward-container">
+      <div class="bestaward-container__content">
+        <img src="./assets/images/TC_badge_yellow.svg" alt="logo" />
+        <h1>Travellers' Choice Awards Best of the Best</h1>
+        <p>
+          Among our top 1% of places, stays, eats, and experiences-decided by
+          you.
+        </p>
+        <button>See the Winners</button>
+      </div>
+      <div class="bestaward-container__img"></div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer-container">
+      <div class="footer-s1">
+        <div class="footer-s1__c1">
+          <h4>About tripadvisor</h4>
+          <p>About us</p>
+          <p>Press</p>
+          <p>Resources and policies</p>
+          <p>Careers</p>
+          <p>trust & Safety</p>
+          <p>Contact us</p>
+          <p>Accessibility Statement</p>
+        </div>
+        <div class="footer-s1__c1">
+          <h4>Explore</h4>
+          <p>Write a review</p>
+          <p>Add a Place</p>
+          <p>join</p>
+          <p>Travellers' Choice</p>
+          <p>Help Centre</p>
+          <p>Travel Stories</p>
+        </div>
+        <div class="footer-s1__c1">
+          <h4>Do Business With Us</h4>
+          <p>Owners & DMO/CVB</p>
+          <p>Business Advantage</p>
+          <p>Sponsored placements</p>
+          <p>Access out Content API</p>
+          <br />
+          <p>Get The App</p>
+          <p>iPhone App</p>
+          <p>Android App</p>
+        </div>
+        <div class="footer-s1__c2">
+          <h4>Tripadvisor Sites</h4>
+          <p>
+            Book tours and attraction tickets on
+            <span style="text-decoration: underline; cursor: pointer"
+              >Viator</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer-s2">
+        <div class="footer-s2__c1">
+          <img src="./assets/images/tripadvisor-logo.svg" alt="logo" />
+        </div>
+        <div class="footer-s2__c2">
+          <p>&copy; 2025 Tripadvisor LLC All rights reserved</p>
+          <div class="footer-s2__c2__Links">
+            <p>Terms of Use</p>
+            <p>Privacy and Cookies Statement</p>
+            <p>Cookie consent</p>
+            <p>Site Map</p>
+            <p>How the site works</p>
+            <p>Contact Us</p>
+          </div>
+        </div>
+        <div class="footer-s2__c3">
+          <div class="dropdown-container">
+            <!-- Currency Dropdown -->
+            <div class="custom-dropdown">
+              <button class="dropdown-button">
+                ₹ INR <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">$ USD</a>
+                <a href="#">₹ INR</a>
+              </div>
+            </div>
+
+            <!-- Country Dropdown -->
+            <div class="custom-dropdown">
+              <button class="dropdown-button">
+                India <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">United States</a>
+                <a href="#">India</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-s3">
+        <p>
+          This is the version of our website addressed to speakers of English in
+          India. If you are a resident of another country or region, please
+          select the appropriate version of Tripadvisor for your country or
+          region in the drop-down menu.
+          <span style="text-decoration: underline; cursor: pointer">more</span>
+        </p>
+        <div class="footer-s3__socialmedia">
+          <i class="fa-brands fa-facebook" style="color: #000000"></i>
+          <i class="fa-brands fa-x-twitter" style="color: #000000"></i>
+          <i class="fa-brands fa-pinterest" style="color: #000000"></i>
+          <i class="fa-brands fa-instagram" style="color: #000000"></i>
+          <i class="fa-brands fa-youtube" style="color: #000000"></i>
+          <i class="fa-brands fa-tiktok" style="color: #000000"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
