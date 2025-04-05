@@ -11,24 +11,6 @@ Welcome to my TripAdvisor Clone! 🚀 This project is a simple yet visually appe
 ✅ Smooth and interactive design 💡
 ✅ Deployed on GitHub Pages 🌐
 
-🚀 Live Demo
 
-🔗 https://naveenmadmax.github.io/Tripadvisor-Clone/
 
-🛠️ Tech Stack:
 
-HTML5
-CSS3
-Media Queries
-
-📌 How to Use:
-
-1️⃣ Clone this repository
-
-git clone https://github.com/NaveenMadMax/tripadvisor-clone.git
-
-2️⃣ Open index.html in your browser and explore!
-
-❤️ Support
-If you like this project, give it a ⭐ on GitHub! 😊
-Feel free to fork, contribute, or share your feedback. 🚀
